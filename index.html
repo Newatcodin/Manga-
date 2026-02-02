@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Manga Library</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📚 My Manga Library</h1>
+
+<div id="library">
+  <div id="series-selector">
+    <input type="file" id="file-input" multiple webkitdirectory directory>
+    <label for="file-input">📂 Upload a manga folder (drag & drop also works)</label>
+  </div>
+  <select id="series-list" style="display:none;"></select>
+</div>
+
+<div id="reader" style="display:none;">
+  <button id="prev-page">⬅ Prev</button>
+  <button id="next-page">Next ➡</button>
+  <div id="page-container"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
