@@ -10,4 +10,5 @@ Static manga reader for GitHub Pages.
 - Fully static, works offline
 
 
-Live manga site
+Live manga site!!!
+
